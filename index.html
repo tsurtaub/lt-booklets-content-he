@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>פרקים נבחרים מתוך הספר חשיבה צלולה</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #FEFEFE;
+      background-image: url(bg.jpg);
+      background-position: 0px -300px;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-family: 'Secular One', sans-serif;
+      font-size: 26pt;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-family: 'Secular One', sans-serif;
+      font-size: 18pt;
+    }
+    h3 {
+      font-family: 'Secular One', sans-serif;
+      font-size: 14pt;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+
+    .image-container img {
+      width: 200px;
+      height: 284px;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+    }
+
+    .text-container {
+      font-family: 'David Libre', serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .text-block {
+      line-height: 1.5;
+      display: none;
+      max-width: 600px;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 10px;
+      background-image: url(bg.jpg);
+      background-position: 0px -800px;
+      background-repeat: no-repeat;
+    }
+
+    ol.start { 
+    counter-reset: mycounter;
+    }
+    ol.start li, ol.continue li {
+        list-style: none;
+    }
+    ol.start li:before, ol.continue li:before { 
+        content: counter(mycounter) ". "; 
+        counter-increment: mycounter;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>פרקים נבחרים מתוך הספר חשיבה צלולה</h1>
+
+  <div class="image-container">
+    <img src="book1.jpg" onclick="showText(1)">
+    <img src="book2.jpg" onclick="showText(2)">
+    <img src="book3.jpg" onclick="showText(3)">
+    <img src="book4.jpg" onclick="showText(4)">
+    <img src="book5.jpg" onclick="showText(5)">
+  </div>
+
+  <div class="text-container">
+    <div id="text1" class="text-block">
+
+      <h2>כרך ראשון - בסיס הידע: כיצד אנו יודעים את מה שאנו יודעים?</h2>
+
+      <h3>הכנה</h3>
+
+			<ol class="start">
+				<li>על הספר</li>
+				<li>מדוע הפילוסופיה אינה מגיעה לתשובות מוחלטות?</li>
+				<li>בלבול השפות</li>
+				<li>מה זה: מה זה?</li>
+				<li>מגבלות ההיגיון</li>
+				<li>הנגשת האבסטרקציה</li>
+			</ol>
+
+			<h3>בסיס הידע</h3>
+
+			<ol class="continue">
+				<li>נקודת המוצא – התודעה</li>
+				<li>מהי התודעה?</li>
+				<li>הנפש – תחושות, רגשות ומחשבות</li>
+				<li>תשומת הלב</li>
+				<li>מהי אמת?</li>
+				<li>מהי ידיעה?</li>
+				<li>מהי אמונה?</li>
+				<li>מהי הבנה?</li>
+				<li>מהו מושג?</li>
+				<li>מהי הפשטה?</li>
+				<li>מבנה הידע – נתונים ופרשנות</li>
+				<li>מבנה הידע – נתונים ופרשנות (העמקה)</li>
+				<li>תפיסת הנבדלות</li>
+				<li>מהו מידע?</li>
+				<li>מהו תיאור?</li>
+			</ol>
+    </div>
+
+    <div id="text2" class="text-block">
+
+      <h2>כרך שני - בסיס חדש לתורת המוסר</h2>
+
+			<h3>הכנה</h3>
+
+			<ol class="start">
+				<li>על הספר</li>
+				<li>מדוע הפילוסופיה אינה מגיעה לתשובות מוחלטות?</li>
+				<li>בלבול השפות</li>
+				<li>מה זה: מה זה?</li>
+				<li>מגבלות ההיגיון</li>
+				<li>הנגשת האבסטרקציה</li>
+				<li>הנפש – תחושות, רגשות ומחשבות</li>
+				<li>מבנה הידע – נתונים ופרשנות</li>
+				<li>ריבוי ה״אני״</li>
+			</ol>
+
+			<h3>בסיס חדש לתורת המוסר</h3>
+
+			<ol class="continue">
+				<li>הפרדה בין דחף פנימי לפעולה לחיצונית</li>
+				<li>מוסר – יש דבר כזה?</li>
+				<li>טבעם של הטוב והרע</li>
+				<li>המטרה הסופית של החיים</li>
+				<li>צרכים וערכים</li>
+				<li>מהו דטרמיניזם?</li>
+				<li>מהו רצון?</li>
+				<li>האם הבחירות שאנו עושים הן רצוניות או אוטומטיות?</li>
+				<li>רצון חופשי – האם יש דבר כזה?</li>
+				<li>מהי אחריות?</li>
+				<li>ציפייה, האשמה ואחריות אישית</li>
+				<li>תפיסות המגבילות את האפשרות</li>
+				<li>כל מה שאני עושה, אני עושה עבור עצמי</li>
+				<li>מהי אלימות?</li>
+				<li>מהו שיפוט?</li>
+				<li>מטרת הענישה</li>
+				<li>כיצד לעשות טוב? בסיס יציב ליצירת חברה הרמונית</li>
+			</ol>
+
+			<h3>פרקי העמקה</h3>
+
+			<ol class="continue">
+				<li>מהי סיבתיות?</li>
+				<li>המטרה הסופית של החיים (העמקה)</li>
+				<li>מהי אלימות? (העמקה)</li>
+				<li>מהו שיפוט? (העמקה)</li>
+			</ol>
+    </div>
+
+    <div id="text3" class="text-block">
+
+      <h2>כרך שלישי - הפילוסופיה של המדע על בסיס יציב יותר + מחקר אינטרוספקטיבי</h2>
+
+      <h3>הכנה</h3>
+
+			<ol class="start">
+				<li>על הספר</li>
+				<li>מדוע הפילוסופיה אינה מגיעה לתשובות מוחלטות?</li>
+				<li>בלבול השפות</li>
+				<li>מה זה: מה זה?</li>
+				<li>מגבלות ההיגיון</li>
+				<li>הנגשת האבסטרקציה</li>
+			</ol>
+
+			<h3>בסיס הידע</h3>
+
+			<ol class="continue">
+				<li>נקודת המוצא – התודעה</li>
+				<li>מהי התודעה?</li>
+				<li>הנפש – תחושות, רגשות ומחשבות</li>
+				<li>מהי אמת?</li>
+				<li>מהי ידיעה?</li>
+				<li>מהי אמונה?</li>
+				<li>מהי הבנה?</li>
+				<li>מהו מושג?</li>
+				<li>מבנה הידע – נתונים ופרשנות</li>
+				<li>מהי סיבתיות?</li>
+				<li>מהו דטרמיניזם?</li>
+				<li>מהו מידע?</li>
+				<li>מהו תיאור?</li>
+			</ol>
+
+			<h3>הפילוסופיה של המדע על בסיס יציב יותר</h3>
+
+			<ol class="continue">
+				<li>מהו מדע?</li>
+				<li>מהי אמפיריות?</li>
+				<li>טבעה של מדידה</li>
+				<li>מהי אובייקטיביות?</li>
+				<li>בעיית האינדוקציה</li>
+				<li>בעיית התיחום של המדע</li>
+				<li>מהי הוכחה?</li>
+				<li>תופעה מתהווה</li>
+				<li>תכונותיו של מחפש אמת</li>
+				<li>נקודות השיפור של המדע</li>
+			</ol>
+
+			<h3>מחקר פנימי: מדע חדש־ישן</h3>
+      
+			<ol class="continue">
+				<li>רקע עליי</li>
+				<li>אינטרוספקציה ככלי מחקר מדעי</li>
+				<li>מחקר אינטרוספקטיבי</li>
+				<li>המכניקה של הנפש</li>
+			</ol>
+
+			<h3>פרקי העמקה</h3>
+
+			<ol class="continue">
+				<li>לוגיקה כתוצר של הניסיון</li>
+				<li>מבנה הידע – נתונים ופרשנות (העמקה)</li>
+				<li>נספח: דוגמה לניסוי אינטרוספקטיבי</li>
+			</ol>
+
+    </div>
+
+    <div id="text4" class="text-block">
+
+      <h2>כרך רביעי - טבעה של המתמטיקה</h2>
+
+      <h3>הכנה</h3>
+
+			<ol class="start">
+				<li>על הספר</li>
+				<li>מדוע הפילוסופיה אינה מגיעה לתשובות מוחלטות?</li>
+				<li>בלבול השפות</li>
+				<li>מה זה: מה זה?</li>
+				<li>מגבלות ההיגיון</li>
+				<li>הנגשת האבסטרקציה</li>
+			</ol>
+
+			<h3>הבסיס הנפשי עליו נשענת המתמטיקה</h3>
+
+			<ol class="continue">
+				<li>מהי אמת?</li>
+				<li>תפיסת הנבדלות</li>
+				<li>מהי הפשטה?</li>
+			</ol>
+
+			<h3>טבעה של המתמטיקה</h3>
+
+			<ol class="continue">
+				<li>טבעה של המתמטיקה</li>
+				<li>טבעה של המתמטיקה (העמקה)</li>
+				<li>מתמטיקה וסיבתיות בפיזיקה</li>
+				<li>לוגיקה כתוצר של הניסיון</li>
+			</ol>
+
+			<h3>פרקי העשרה הנוגעים לפילוסופיה של המתמטיקה</h3>
+
+			<ol class="continue">
+				<li>מהו מידע?</li>
+				<li>מהו תיאור?</li>
+				<li>פרדוקסים של התייחסות עצמית</li>
+				<li>מהי הוכחה?</li>
+			</ol>
+
+    </div>
+
+    <div id="text5" class="text-block">
+
+      <h2>כרך חמישי - מבחר רעיונות פילוסופיים מנקודת מבט חדשה</h2>
+
+      <h3>הכנה</h3>
+
+			<ol class="start">
+				<li>על הספר</li>
+				<li>מדוע הפילוסופיה אינה מגיעה לתשובות מוחלטות?</li>
+				<li>בלבול השפות</li>
+				<li>מה זה: מה זה?</li>
+				<li>מגבלות ההיגיון</li>
+				<li>הנגשת האבסטרקציה</li>
+			</ol>
+
+			<h3>שאלות פילוסופיות נפוצות מנקודת מבט חדשה</h3>
+
+			<ol class="continue">
+				<li>מהי זהות?</li>
+				<li>מי אני?</li>
+				<li>טבעו של הזמן</li>
+				<li>טבעה של המתמטיקה</li>
+				<li>מהו מידע?</li>
+				<li>מהו תיאור?</li>
+			</ol>
+
+			<h3>פתרונות לפרדוקסים פילוסופיים</h3>
+
+			<ol class="continue">
+				<li>ספינת תזאוס</li>
+				<li>הפרדוקס של ניוקום</li>
+				<li>פרדוקסים של התייחסות עצמית</li>
+			</ol>
+
+			<h3>בעיות פילוסופיות לא פתורות</h3>
+
+			<ol class="continue">
+				<li>הבעיה הקשה של התודעה</li>
+				<li>האם קיים ידע מובנה? (אפריורי)</li>
+				<li>הסיבה הראשונית</li>
+			</ol>
+
+			<h3>פרקי העמקה</h3>
+
+			<ol class="continue">
+				<li>מי אני? (העמקה)</li>
+				<li>טבעו של הזמן (העמקה)</li>
+				<li>טבעו של הזמן (מנקודת מבטה של הפיזיקה)</li>
+				<li>טבעה של המתמטיקה (העמקה)</li>
+				<li>האם קיים ידע מובנה? (העמקה)</li>
+			</ol>
+
+    </div>
+
+  </div>
+
+  <script>
+    function showText(index) {
+      for (let i = 1; i <= 5; i++) {
+        const div = document.getElementById('text' + i);
+        div.style.display = (i === index) ? 'block' : 'none';
+      }
+    }
+  </script>
+
+  <script>
+let lastScrollY = 0;
+
+function showText(index) {
+  lastScrollY = window.scrollY;
+
+  // Hide all text blocks
+  document.querySelectorAll('.text-block').forEach(el => el.style.display = 'none');
+
+  const selected = document.getElementById(`text${index}`);
+  if (selected) {
+    selected.style.display = 'block';
+
+    // Check if the element is in view
+    const rect = selected.getBoundingClientRect();
+    const isInView = rect.top >= 0 && rect.top <= window.innerHeight;
+
+    if (!isInView) {
+      selected.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+  document.getElementById('backBtn').style.display = 'block';
+
+  // Push to browser history
+  history.pushState({ textIndex: index, scrollY: lastScrollY }, "", `#text${index}`);
+}
+
+function goBack() {
+  history.back(); // Triggers popstate
+}
+
+// Handle back/forward navigation
+window.addEventListener('popstate', (event) => {
+  // Hide all
+  document.querySelectorAll('.text-block').forEach(el => el.style.display = 'none');
+
+  if (event.state && event.state.textIndex) {
+    // If going back to a specific text block
+    const selected = document.getElementById(`text${event.state.textIndex}`);
+    if (selected) {
+      selected.style.display = 'block';
+      selected.scrollIntoView({ behavior: 'smooth' });
+    }
+    document.getElementById('backBtn').style.display = 'block';
+  } else {
+    // Return to main view
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.getElementById('backBtn').style.display = 'none';
+  }
+});
+</script>
+
+</body>
+</html>
